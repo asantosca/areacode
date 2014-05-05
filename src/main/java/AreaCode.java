@@ -6,7 +6,7 @@ public class AreaCode
      * 
      * @throws IllegalArgumentException if the argument areaCode is not valid
      */
-    public String getState(int areaCode)
+    public static String getState(int areaCode)
     {
         switch (areaCode)
         {
